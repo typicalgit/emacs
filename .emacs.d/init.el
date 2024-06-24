@@ -1,3 +1,8 @@
+(load-file "/home/joe/git/emacspeak/lisp/emacspeak-setup.el")
+
+
+
+
 ;; Add MELPA repository for package management
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
@@ -19,7 +24,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(evil-escape evil)))
+ '(package-selected-packages '(evil-escape evil))
+ '(warning-suppress-types '((comp))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
