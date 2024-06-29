@@ -19,10 +19,10 @@
   (evil-mode 1))
 
 
-;(use-package helm
-;  :ensure t
-;  :config
-;  (helm-mode 1))
+(use-package helm
+  :ensure t
+  :config
+  (helm-mode 1)
 
 
 ; DEV - development extensions
@@ -49,7 +49,7 @@
 (use-package lsp-sourcekit
   :after lsp-mode
   :config
-  (setq lsp-sourcekit-executable "/usr/lib/swift/bin/sourcekit-lsp"))  
+  (setq lsp-sourcekit-executable "/usr/lib/swift/bin/sourcekit-lsp"))  ;; <-- Added missing closing parenthesis
 
 (use-package lsp-mode
   :ensure t

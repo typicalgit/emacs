@@ -1,5 +1,5 @@
 
-(setq emacspeak-sounds-dir "/home/joe/git/emacspeak/sounds")
+(setq emacs-sounds-dir "/home/joe/git/emacspeak/sounds")
 (load-file "/home/joe/git/emacspeak/lisp/emacspeak-setup.el")
 (load-file "~/.emacs.d/keybindings.el")
 (load-file "~/.emacs.d/mypackages.el")
